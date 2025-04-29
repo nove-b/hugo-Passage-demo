@@ -1,0 +1,23 @@
+{
+  "name": "hugo-passage-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nove-b/hugo-Passage-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nove-b/hugo-Passage-demo/issues"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.0.17",
+    "tailwindcss": "^4.0.17"
+  },
+  "homepage": "https://github.com/nove-b/hugo-Passage-demo#readme"
+}

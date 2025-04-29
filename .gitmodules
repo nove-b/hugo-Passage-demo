@@ -1,0 +1,3 @@
+[submodule "themes/passage"]
+	path = themes/passage
+	url = https://github.com/nove-b/hugo-Passage.git
