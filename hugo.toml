@@ -31,10 +31,7 @@ link = "https://example.com/"
 
 [build]
   [build.buildStats]
-    enable = true
-  [[build.cachebusters]]
-    source = 'assets/notwatching/hugo_stats\.json'
-    target = 'css'
+    enable = false # hugo_stats.json の生成を無効化
   [[build.cachebusters]]
     source = '(postcss|tailwind)\.config\.js'
     target = 'css'
@@ -42,10 +39,8 @@ link = "https://example.com/"
   [module.hugoVersion]
     extended = false
     min = "0.116.0"
-  [[module.mounts]]
-    source = 'assets'
-    target = 'assets'
-  [[module.mounts]]
-    disableWatch = true
-    source = 'hugo_stats.json'
-    target = 'assets/notwatching/hugo_stats.json'
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 10
