@@ -1,4 +1,4 @@
-baseURL = 'https://example.com/'
+baseURL = 'https://hugo-passage-demo.netlify.app/'
 languageCode = 'ja'
 title = 'My Hugo Blog'
 theme = 'passage'
